@@ -17,3 +17,12 @@ tipo_datos=matriz_2.dtype
 #print("el tamño  es: ",tamaño)
 #print("la dimensión es: ",dimension)
 #print("el tipo de datos es: ",tipo_datos)
+#4
+matriz_3=matriz_2[:,:,1]
+matriz_3.shape
+print(matriz_3)
+def conversor(matriz_3):
+    data_frame=pd.DataFrame(matriz_3)
+    return data_frame
+a=conversor(matriz_3)
+#print(a)
